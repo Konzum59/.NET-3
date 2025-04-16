@@ -123,9 +123,9 @@ namespace Multi
             MatrixCalculateWithThreads solve6 = new MatrixCalculateWithThreads(a, b, 8);
             watch3.Stop();
 
-            Console.WriteLine($"1 vs 4 threads (Parallel): {CompareMatrices(solve1.result, solve2.result)}");
-            Console.WriteLine($"1 vs 8 threads (Parallel): {CompareMatrices(solve1.result, solve3.result)}");
-            Console.WriteLine($"1 vs 4 threads (Thread): {CompareMatrices(solve1.result, solve4.result)}");
+            //Console.WriteLine($"1 vs 4 threads (Parallel): {CompareMatrices(solve1.result, solve2.result)}");
+            //Console.WriteLine($"1 vs 8 threads (Parallel): {CompareMatrices(solve1.result, solve3.result)}");
+            //Console.WriteLine($"1 vs 4 threads (Thread): {CompareMatrices(solve1.result, solve4.result)}");
             //PrintMatrix(solve1.result);
             //PrintMatrix(solve2.result);
             //PrintMatrix(solve3.result);
